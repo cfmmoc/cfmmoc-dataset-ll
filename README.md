@@ -2,3 +2,7 @@
 Licensed under The GNU General Public License v3.0 (GPLv3)
 
 Any modification, re-utilization or copy of the dataset in other software or publications should mention a data CITATION of this dataset.
+
+## Overview
+
+3D models are in OGRE mesh format, and textures are in dds format.
