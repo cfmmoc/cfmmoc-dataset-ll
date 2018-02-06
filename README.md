@@ -5,4 +5,4 @@ Any modification, re-utilization or copy of the dataset in other software or pub
 
 ## Overview
 
-3D models are in OGRE mesh format, and textures are in dds format.
+Hierarchical 3D models are in OGRE mesh format, and textures are in dds format.
