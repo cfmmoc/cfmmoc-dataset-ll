@@ -5,4 +5,4 @@ Any modification, re-utilization or copy of the dataset in other software or pub
 
 ## Overview
 
-Hierarchical 3D models are in OGRE mesh format, and textures are in dds format. A demo using this dataset could b e found at https://github.com/cfmmoc/cfmmoc.
+Hierarchical 3D models are in OGRE mesh format, and textures are in dds format. A demo using this dataset could be found at https://github.com/cfmmoc/cfmmoc.
