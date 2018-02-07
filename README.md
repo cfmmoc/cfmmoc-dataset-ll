@@ -10,3 +10,7 @@ Hierarchical 3D models are in OGRE mesh format, and textures are in dds format. 
 ## Sources
 
 The dataset is generated from Shuttle Radar Topography Mission (SRTM) v7 heightfiled dataset and Blue Marble Next Generation (BMNG) imagery dataset.
+
+## Usage
+
+Downloading this dataset.
