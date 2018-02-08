@@ -7,6 +7,8 @@ Any modification, re-utilization or copy of the dataset in other software or pub
 
 Hierarchical 3D models are in OGRE mesh format, and textures are in dds format. A demo using this dataset could be found at https://github.com/cfmmoc/cfmmoc.
 
+The range of level of this dataset is from 0 (six tiles for the Globe) to 5 (6144 tiles for the Globe totally).
+
 ## Sources
 
 The dataset is generated from Shuttle Radar Topography Mission (SRTM) v7 heightfiled dataset and Blue Marble Next Generation (BMNG) imagery dataset.
