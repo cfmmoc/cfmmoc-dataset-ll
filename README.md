@@ -19,6 +19,10 @@ Downloading this dataset using git:
 
 $ git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git
 
-Generate an iso file by using Brasero.
+Generate an iso file by using Brasero:
 
 $ brasero 
+
+Mount the iso file:
+
+Start httpd server:
