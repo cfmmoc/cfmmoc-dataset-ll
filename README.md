@@ -25,4 +25,10 @@ $ brasero
 
 Mount the iso file:
 
+$ 
+
 Start httpd server:
+
+$ 
+
+Refer to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
