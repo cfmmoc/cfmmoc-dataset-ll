@@ -17,4 +17,8 @@ The dataset is generated from Shuttle Radar Topography Mission (SRTM) v7 heightf
 
 Downloading this dataset using git:
 
-$git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git
+$ git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git
+
+Generate an iso file by using Brasero.
+
+$ brasero 
