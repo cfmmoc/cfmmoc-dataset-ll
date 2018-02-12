@@ -21,14 +21,16 @@ $ git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git
 
 Generate an iso file by using Brasero:
 
-$ brasero 
+$ brasero -d cfmmoc-dataset-ll/sim cfmmoc-dataset-ll/com cfmmoc-dataset-ll/tex
 
-Mount the iso file:
+Above command would open Brasero GUI, save it as cfmmoc-dataset-ll.iso
 
-$ 
+Run mount command with superuser privilege:
 
-Start httpd server:
+# mount -o loop cfmmoc-dataset-ll.iso /var/www/html/
 
-$ 
+Start httpd server with superuser privilege (make sure http server port is 80 by default):
+
+# service httpd start
 
 Refer to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
