@@ -33,4 +33,4 @@ Start httpd server with superuser privilege (make sure http server port is 80 by
 
 \# service httpd start
 
-Refer to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
+Then REFER to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
