@@ -15,21 +15,25 @@ The dataset is generated from Shuttle Radar Topography Mission (SRTM) v7 heightf
 
 ## Usage
 
-Downloading this dataset using git:
+Due to the restriction of uploading single large file to GitHub, massive small tile files are maintained in this repository.
+
+Three steps for using these dataset: Cloning these data, Storing in iso image, and Mounting to http server.
+
+1.Downloading this dataset using git:
 
 $ git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git
 
-Generate an iso file by using Brasero:
+2.Generate an iso file by using Brasero:
 
 $ brasero -d cfmmoc-dataset-ll/sim cfmmoc-dataset-ll/com cfmmoc-dataset-ll/tex
 
 Above command would open Brasero GUI, save it as cfmmoc-dataset-ll.iso
 
-Run mount command with superuser privilege:
+3.Run mount command with superuser privilege:
 
 \# mount -o loop cfmmoc-dataset-ll.iso /var/www/html/
 
-Start httpd server with superuser privilege (make sure http server port is 80 by default):
+4.Start httpd server with superuser privilege (make sure http server port is 80 by default):
 
 \# service httpd start
 
