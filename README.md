@@ -33,8 +33,8 @@ Above command would open Brasero GUI, save it as cfmmoc-dataset-ll.iso
 
 \# mount -o loop cfmmoc-dataset-ll.iso /var/www/html/
 
-Start httpd server with superuser privilege (make sure http server port is 80 by default):
+Finally, start httpd server with superuser privilege (make sure http server port is 80 by default):
 
 \# service httpd start
 
-Then REFER to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
+After above configuration, REFER to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
