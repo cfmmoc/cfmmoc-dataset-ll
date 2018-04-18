@@ -21,20 +21,16 @@ Three steps for using these dataset: Cloning these data, Storing in iso image, a
 
 1.Downloading this dataset using git:
 
-$ git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git
+`git clone --depth=1 https://github.com/cfmmoc/cfmmoc-dataset-ll.git`
 
-2.Generate an iso file by using Brasero:
-
-$ brasero -d cfmmoc-dataset-ll/sim cfmmoc-dataset-ll/com cfmmoc-dataset-ll/tex
+2.Generate an iso file by using `brasero -d cfmmoc-dataset-ll/sim cfmmoc-dataset-ll/com cfmmoc-dataset-ll/tex`
 
 Above command would open Brasero GUI, save it as cfmmoc-dataset-ll.iso
 
-3.Run mount command with superuser privilege:
+3.Run `mount -o loop cfmmoc-dataset-ll.iso /var/www/html/` with superuser privilege:
 
-\# mount -o loop cfmmoc-dataset-ll.iso /var/www/html/
+Finally, start httpd server via `service httpd start` with superuser privilege (make sure http server port is 80 by default):
 
-Finally, start httpd server with superuser privilege (make sure http server port is 80 by default):
-
-\# service httpd start
+On Ubuntu, run `service apache2 start` instead.
 
 After above configuration, REFER to this page, https://github.com/cfmmoc/cfmmoc, for compiling and runing cfMMOC demo.
